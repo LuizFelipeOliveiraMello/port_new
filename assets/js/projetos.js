@@ -8,7 +8,7 @@ function projetos(section) {
           <h3>Orange Evolution</h3>
           <div class="img-wrapper">
             <img
-              src="./assets/images/projects/orange-evolution.gif"
+              src="./assets/images/projects/blog.gif"
               alt="GIF do projeto Orange Evolution."
             />
             <div class="buttons">
@@ -50,7 +50,7 @@ function projetos(section) {
           <h3>Desafio 21 dias de código</h3>
           <div class="img-wrapper">
             <img
-              src="./assets/images/projects/desafio-de-codigo.jpg"
+              src="./assets/images/projects/login.gif"
               alt="Imagem tema do projeto de desafio de código."
             />
             <div class="buttons">
@@ -91,7 +91,7 @@ function projetos(section) {
         <div class="card">
           <h3>Nutricionista Roberto - Links</h3>
           <div class="img-wrapper">
-            <img src="./assets/images/projects/roberto-links.gif" alt="Imagem do projeto." />
+            <img src="./assets/images/projects/planoCarreira.gif" alt="Imagem do projeto." />
             <div class="buttons">
               <a href="https://github.com/lucyanovidio/robertoovidionutri-bio" target="_blank" title="Repositório no Github">
                 <svg
@@ -128,7 +128,7 @@ function projetos(section) {
         <div class="card">
           <h3>Nutricionista Roberto - Página de consulta</h3>
           <div class="img-wrapper">
-            <img src="./assets/images/projects/roberto-consulta.gif" alt="Imagem do projeto." />
+            <img src="./assets/images/projects/todoList.gif" alt="Imagem do projeto." />
             <div class="buttons">
               <a href="https://github.com/lucyanovidio/robertoovidionutri-consulta" target="_blank" title="Repositório no Github">
                 <svg
