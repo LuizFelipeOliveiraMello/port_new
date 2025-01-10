@@ -565,12 +565,12 @@ body.menu-expanded button path {
   transition: 600ms;
 }
 
-#about {
+#about-exp {
   background: #ffffff;
   padding-top: 12rem;
   padding-bottom: 15rem;
 }
-#about .section-intro {
+#about-exp .section-intro {
   margin-bottom: 3rem;
 }
 
