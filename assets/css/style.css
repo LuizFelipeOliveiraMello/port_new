@@ -573,25 +573,20 @@ body.menu-expanded button path {
 }
 
 #about .perfil h1 {
-      margin-bottom: 0.5rem;
-      font-size: 1.125rem; 
       color: #083748; /* tom de verde-azulado */
       text-transform: uppercase;
       letter-spacing: 1px;
 }
 #about .perfil p {
-      margin: 0.5rem 0;
       line-height: 1.4;
 }
 #about .perfil .intro {
       color: #666;
-      margin-top: 1rem;
-      margin-bottom: 2rem;
+      text-align: justify;
     }
 #about .perfil .info p strong {
       display: inline-block;
       color: #083748; /* mesmo tom de verde-azulado */
-      margin-right: 0.25rem;
       text-transform: uppercase;
     }
 #about .perfil a {
@@ -605,11 +600,11 @@ body.menu-expanded button path {
 #about .experience {
       width: 90%;
       max-width: 500px;
-      margin: 2rem auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
 }
  #about .experience h1 {
-      margin-bottom: 0.5rem;
-      font-size: 1.125rem;
       color: #083748;
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -617,19 +612,13 @@ body.menu-expanded button path {
 
 #about .experience p.subtitle {
       color: #666;
-      margin-bottom: 2rem;
     }
 
-    /* Skill List */
-#about .experience .skill {
-      margin-bottom: 1.5rem;
-    }
 
 #about .experience .skill-header {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 0.5rem;
     }
 
 #about .experience .skill-title {
@@ -669,7 +658,6 @@ body.menu-expanded button path {
     @media (max-width: 480px) {
       #about .experience {
         width: 95%;
-        margin: 1rem auto;
       }
       #about .experience h1 {
         font-size: 1rem;
@@ -684,7 +672,6 @@ body.menu-expanded button path {
 @media (max-width: 480px) {
       #about .perfil {
         width: 95%;
-        margin: 1rem auto;
 }
 #about .perfil h1 {
         font-size: 1rem;
