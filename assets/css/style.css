@@ -565,6 +565,49 @@ body.menu-expanded button path {
   transition: 600ms;
 }
 
+.profile {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profile h1 {
+    text-align: center;
+    color: #333;
+}
+
+.profile p {
+    text-align: center;
+    color: #666;
+    font-size: 1.1em;
+}
+
+.profile dl {
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.profile dt {
+    font-weight: bold;
+    float: left;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.profile dd {
+    margin-left: 160px;
+    margin-bottom: 10px;
+}
+
+.profile dd a {
+    color: #000;
+    text-decoration: none;
+}
+
+.profile dd a:hover {
+    text-decoration:
 
 /**
  * responsive:
