@@ -88,6 +88,7 @@ function projetos(section) {
                     fill="rgba(255,255,255,1)"
                   />
                 </svg>
+                </a>
             </div>
           </div>
           <p>Todo list feita com NextJS</p>
