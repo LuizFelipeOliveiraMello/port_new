@@ -93,7 +93,6 @@ function projetos(section) {
           <p>Todo list feita com NextJS</p>
           <p>HTML - CSS - JS - NextJs</p>
         </div>
-      </div>
     </div>`;
 }
 
