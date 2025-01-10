@@ -295,7 +295,7 @@ footer a.logo,
 nav#navigation.scroll a.logo,
 body.menu-expanded nav#navigation a.logo,
 body.light-mode.menu-expanded nav#navigation.scroll a.logo {
-  color: #fff;
+  color: #6f6f6f;
 }
 
 body.menu-expanded nav#navigation a.logo {
@@ -1813,7 +1813,3 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 }
 
 /*===== FOOTER ==================================*/
-
-footer .logo {
-    color: #6f6f6f; !important
-}
