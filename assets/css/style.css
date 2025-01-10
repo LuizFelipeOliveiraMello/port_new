@@ -31,10 +31,10 @@ html,
 body {
   width: 100%;
   height: 100%;
-  font-family: "DM Sans", sans-serif;
 }
 
 body {
+   font-family: "DM Sans", sans-serif;
   font-size: 1.6rem;
   text-align: center;
 
