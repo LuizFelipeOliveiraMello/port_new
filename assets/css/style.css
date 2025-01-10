@@ -564,53 +564,6 @@ body.menu-expanded button path {
   transition: 600ms;
 }
 
-#about .line-container {
-
-     position: relative;
-     height: 4px;
-     background: transparent;
-     border-radius: 2px;
-     overflow: hidden;
-}
-
-#about .runner {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 30px;
-      height: 4px;
-      background: #083748; /* Cor verde-azulado */
-      animation: pass 2s linear infinite;
-    }
-
-    /* Animação que move da esquerda para direita com variação de escala (stretch) */
-    @keyframes pass {
-      0% {
-        left: -30px;
-        transform: translateY(-50%) scaleX(1);
-      }
-      20% {
-        transform: translateY(-50%) scaleX(1.35);
-      }
-      40% {
-        transform: translateY(-50%) scaleX(0.8);
-      }
-      60% {
-        transform: translateY(-50%) scaleX(1.2);
-      }
-      80% {
-        transform: translateY(-50%) scaleX(0.9);
-      }
-      100% {
-        left: 100%;
-        transform: translateY(-50%) scaleX(1);
-      }
-    }
-
-    @media (max-width: 480px) {
-      #about .line-container {
-        width: 95%;
-      }
 
 #about .perfil {
   padding: 20px;
