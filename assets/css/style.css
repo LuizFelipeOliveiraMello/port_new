@@ -564,47 +564,129 @@ body.menu-expanded button path {
   transition: 600ms;
 }
 
-#about .container {
-      width: 90%;
-      max-width: 500px;
-      margin: 2rem auto;
-      font-family: 'JetBrains Mono', monospace; !important
-    }
-#about.container h1 {
+#about .perfil {
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  display: flex;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+#about .perfil h1 {
       margin-bottom: 0.5rem;
       font-size: 1.125rem; 
       color: #083748; /* tom de verde-azulado */
       text-transform: uppercase;
       letter-spacing: 1px;
 }
-#about .container p {
+#about .perfil p {
       margin: 0.5rem 0;
       line-height: 1.4;
 }
-#about .contatiner .intro {
+#about .perfil .intro {
       color: #666;
       margin-top: 1rem;
       margin-bottom: 2rem;
     }
-#about .container .info p strong {
+#about .perfil .info p strong {
       display: inline-block;
       color: #083748; /* mesmo tom de verde-azulado */
       margin-right: 0.25rem;
       text-transform: uppercase;
     }
-#about .container a {
+#about .perfil a {
       color: #083748;
       text-decoration: none;
     }
-#about .container a:hover {
+#about .perfil a:hover {
       text-decoration: underline;
+}
+
+#about .experience {
+      width: 90%;
+      max-width: 500px;
+      margin: 2rem auto;
+}
+ #about .experience h1 {
+      margin-bottom: 0.5rem;
+      font-size: 1.125rem;
+      color: #083748;
+      text-transform: uppercase;
+      letter-spacing: 1px;
     }
+
+#about .experience p.subtitle {
+      color: #666;
+      margin-bottom: 2rem;
+    }
+
+    /* Skill List */
+#about .experience .skill {
+      margin-bottom: 1.5rem;
+    }
+
+#about .experience .skill-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+    }
+
+#about .experience .skill-title {
+      font-weight: 700;
+      color: #083748;
+      text-transform: uppercase;
+    }
+
+#about .experience .percentage-label {
+      background-color: #083748;
+      color: #fff;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.75rem;
+      border-radius: 3px;
+    }
+
+    /* Skill Bar Container */
+#about .experience .skill-bar {
+      position: relative;
+      height: 6px;
+      background-color: #ccc; 
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    /* Skill progress fill */
+#about .experience .skill-progress {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 6px;
+      background-color: #083748;
+      border-radius: 3px;
+      transition: width 0.3s ease;
+    }
+
+    @media (max-width: 480px) {
+      #about .experience {
+        width: 95%;
+        margin: 1rem auto;
+      }
+      #about .experience h1 {
+        font-size: 1rem;
+      }
+      #about .experience .percentage-label {
+        font-size: 0.7rem;
+      }
+}
+
+
+
 @media (max-width: 480px) {
-      #about .container {
+      #about .perfil {
         width: 95%;
         margin: 1rem auto;
 }
-#about .container h1 {
+#about .perfil h1 {
         font-size: 1rem;
       }
 }
