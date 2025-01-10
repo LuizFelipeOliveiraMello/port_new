@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 
-  font-family: "DM Sans", sans-serif;
+  font-family: 'JetBrains Mono', monospace; 
 }
 
 :root {
@@ -564,51 +564,58 @@ body.menu-expanded button path {
 
   transition: 600ms;
 }
+#about .container {
+      width: 90%;
+      max-width: 500px;
+      margin: 2rem auto;
+    }
 
-.profile {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
+#about .container h1 {
+      margin-bottom: 0.5rem;
+      font-size: 1.125rem; 
+      color: #083748; /* tom de verde-azulado */
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+#about .container p {
+      margin: 0.5rem 0;
+      line-height: 1.4;
+    }
+    
+#about .container .intro {
+      color: #666;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+    
+#about .container .info p strong {
+      display: inline-block;
+      color: #083748; /* mesmo tom de verde-azulado */
+      margin-right: 0.25rem;
+      text-transform: uppercase;
+}
+    
+#about .container a {
+      color: #083748;
+      text-decoration: none;
 }
 
-.profile h1 {
-    text-align: center;
-    color: #333;
+#about .container a:hover {
+      text-decoration: underline;
+
 }
-
-.profile p {
-    text-align: center;
-    color: #666;
-    font-size: 1.1em;
+@media (max-width: 480px) {
+      
+#about .container {
+        width: 95%;
+        margin: 1rem auto;
+      }
+      
+#about .container h1 {
+        font-size: 1rem;
+      }
 }
-
-.profile dl {
-    margin-top: 20px;
-    font-size: 1em;
-}
-
-.profile dt {
-    font-weight: bold;
-    float: left;
-    width: 150px;
-    margin-bottom: 10px;
-}
-
-.profile dd {
-    margin-left: 160px;
-    margin-bottom: 10px;
-}
-
-.profile dd a {
-    color: #000;
-    text-decoration: none;
-}
-
-.profile dd a:hover {
-    text-decoration:
-
 /**
  * responsive:
  * about
