@@ -565,7 +565,7 @@ body.menu-expanded button path {
 }
 
 #about .line-container {
-     grid-column: 1 / span 2;
+
      position: relative;
      height: 4px;
      background: transparent;
