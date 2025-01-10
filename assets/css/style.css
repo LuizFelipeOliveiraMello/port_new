@@ -587,7 +587,7 @@ body.menu-expanded button path {
 
 
 #about .perfil {
-  padding-left: 60px;
+  padding-top: 30px;
   flex-direction: column;
   gap: 40px;
   align-items: flex-start;
@@ -621,7 +621,7 @@ body.menu-expanded button path {
 }
 
 #about .experience {
-      padding: 20px;
+      padding-top: 20px;
       width: 90%;
       max-width: 500px;
       display: flex;
