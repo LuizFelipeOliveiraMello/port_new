@@ -610,11 +610,13 @@ body.menu-expanded button path {
       color: #083748;
       text-transform: uppercase;
       letter-spacing: 1px;
+      text-align: initial;
     }
 
 #about .experience p.subtitle {
       color: #666;
-    }
+      text-align: initial;
+}
 
 
 #about .experience .skill-header {
