@@ -602,11 +602,11 @@ body.menu-expanded button path {
 #about .perfil p {
       line-height: 1.4;
 }
-#about .perfil .intro {
+#about .perfil {
       color: #666;
       text-align: justify;
-    }
-#about .perfil .info p strong {
+}
+#about .perfil p strong {
       display: inline-block;
       color: #083748; /* mesmo tom de verde-azulado */
       text-transform: uppercase;
