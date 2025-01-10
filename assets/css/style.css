@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 
-  font-family: 'JetBrains Mono', monospace; 
+  font-family: "DM Sans", sans-serif;
 }
 
 :root {
@@ -36,7 +36,7 @@ body {
 }
 
 body {
-  font-size: 1rem;
+  font-size: 1.6rem;
   text-align: center;
 
   overflow: overlay;
@@ -94,7 +94,7 @@ section {
 }
 
 section h4 {
-  font-size: 0.7rem;
+  font-size: 1.4rem;
   font-weight: 700;
   line-height: 150%;
   letter-spacing: 0.08rem;
@@ -105,7 +105,7 @@ section h4 {
 }
 
 section header h2 {
-  font-size: 2.3rem;
+  font-size: 3rem;
   line-height: 3.9rem;
 
   color: var(--primary-color);
@@ -118,7 +118,7 @@ section h3 {
 section p,
 section span {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.7rem;
   line-height: 130%;
 
   color: var(--paragraph);
@@ -279,7 +279,7 @@ body.light-mode nav.scroll {
 
 a.logo {
   font-family: "Gemunu Libre", sans-serif;
-  font-size: 2.1rem;
+  font-size: 3rem;
   opacity: 0.7;
 }
 
@@ -383,7 +383,7 @@ body.menu-expanded nav.scroll .menu {
   margin: 8rem 0 10rem 0;
 
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 2rem;
   line-height: 3.1rem;
 }
 
@@ -423,7 +423,7 @@ body.menu-expanded button path {
 }
 
 #home h1 {
-  font-size: 3.7rem;
+  font-size: 4.5rem;
   color: var(--headline);
   line-height: 110%;
 
@@ -433,7 +433,7 @@ body.menu-expanded button path {
 #home p {
   display: inline-flex;
 
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   line-height: 150%;
   font-weight: bold;
 
@@ -564,58 +564,8 @@ body.menu-expanded button path {
 
   transition: 600ms;
 }
-#about .container {
-      width: 90%;
-      max-width: 500px;
-      margin: 2rem auto;
-    }
 
-#about .container h1 {
-      margin-bottom: 0.5rem;
-      font-size: 1.110rem; 
-      color: #083748; /* tom de verde-azulado */
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
 
-#about .container p {
-      margin: 0.5rem 0;
-      line-height: 1.4;
-    }
-    
-#about .container .intro {
-      color: #666;
-      margin-top: 1rem;
-      margin-bottom: 2rem;
-    }
-    
-#about .container .info p strong {
-      display: inline-block;
-      color: #083748; /* mesmo tom de verde-azulado */
-      margin-right: 0.25rem;
-      text-transform: uppercase;
-}
-    
-#about .container a {
-      color: #083748;
-      text-decoration: none;
-}
-
-#about .container a:hover {
-      text-decoration: underline;
-
-}
-@media (max-width: 480px) {
-      
-#about .container {
-        width: 95%;
-        margin: 1rem auto;
-      }
-      
-#about .container h1 {
-        font-size: 0.8rem;
-      }
-}
 /**
  * responsive:
  * about
@@ -1111,7 +1061,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   }
 
   body section h2 {
-    font-size: 3.6rem;
+    font-size: 4rem;
     line-height: 5.2rem;
   }
 
@@ -1323,11 +1273,11 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   }
 
   #home h1 {
-    font-size: 5.8rem;
+    font-size: 6rem;
   }
 
   #home .content p {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   #home .button {
@@ -1466,26 +1416,26 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   /*===== GERAL ==================================*/
 
   section h4 {
-    font-size: 0.6rem;
+    font-size: 1.2rem;
   }
 
   body section h2 {
-    font-size: 0.6rem;
+    font-size: 2.2rem;
   }
 
   section h3 {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   section p,
   section span,
   footer p {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .button {
     padding: 1rem 2rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   /*===== NAVEGATION ==================================*/
@@ -1498,7 +1448,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   /*===== MENU-EXPANDED ==================================*/
 
   body.menu-expanded .menu ul:nth-child(1) {
-    font-size: 1rem;
+    font-size: 1.4rem;
     gap: 2rem;
     margin: 6rem 0 7rem;
   }
@@ -1518,11 +1468,11 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   /*===== HOME ==================================*/
 
   #home h1 {
-    font-size: 3.1rem;
+    font-size: 3.8rem;
   }
 
   #home p {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
   }
 
   @keyframes typing {
@@ -1541,7 +1491,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   /*===== ABOUT ==================================*/
 
   #about .content a:nth-child(2) {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   /*===== PROJECTS ==================================*/
@@ -1567,7 +1517,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   /*===== CONTACT ==================================*/
 
   #contact ul a {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   #contact .col-b img {
@@ -1606,11 +1556,11 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   }
 
   #home h1 {
-    font-size: 2.9rem;
+    font-size: 3.2rem;
   }
 
   #home p {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   #home .line {
@@ -1629,7 +1579,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   /*===== ABOUT ==================================*/
 
   #about .content a:nth-child(2) {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -1641,22 +1591,22 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   }
 
   body section h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   section h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   section p,
   section span,
   footer p {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 
   .button {
     padding: 0.8rem 1.6rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
     gap: 0.6rem;
   }
 
@@ -1666,17 +1616,17 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 
   nav#navigation a.logo,
   footer a.logo {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   /*===== HOME ==================================*/
 
   #home h1 {
-    font-size: 2rem;
+    font-size: 2.9rem;
   }
 
   #home p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   #home .wrapper::before {
