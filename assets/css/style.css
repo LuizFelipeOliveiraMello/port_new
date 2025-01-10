@@ -569,6 +569,7 @@ body.menu-expanded button path {
       text-decoration: none; /* Remove sublinhado do link */
       letter-spacing: 0.05rem; /* Pequeno espaço entre letras */
       grid-column: 1 / span 2;
+      justify-self: center;
     }
 #about .btn-download-cv:hover {
       opacity: 0.9; /* Leve efeito de hover */
