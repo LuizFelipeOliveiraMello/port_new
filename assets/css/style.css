@@ -1815,5 +1815,5 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 /*===== FOOTER ==================================*/
 
 footer .logo {
-    color: #6f6f6f;
+    color: #6f6f6f; !important
 }
