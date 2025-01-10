@@ -569,7 +569,7 @@ body.menu-expanded button path {
       width: 90%;
       max-width: 500px;
       margin: 2rem auto;
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'JetBrains Mono', monospace; !important
     }
 #about.container h1 {
       margin-bottom: 0.5rem;
