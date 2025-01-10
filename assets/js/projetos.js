@@ -94,7 +94,6 @@ function projetos(section) {
           <p>HTML - CSS - JS - NextJs</p>
         </div>
         </div>
-        </div>
     </div>`;
 }
 
